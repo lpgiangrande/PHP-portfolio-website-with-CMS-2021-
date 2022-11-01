@@ -1,0 +1,9 @@
+# Empêcher l'accès direct aux fichiers du dossier uploads
+
+RewriteEngine On
+
+# 1) If NOT the current host
+RewriteCond %{HTTP_HOST}@@%{HTTP_REFERER} !^([^@]*)@@https?://\1/.*
+
+# 2) Deny access to these types
+RewriteRule \.(jpg|jpeg|)$ - [F]

@@ -1,0 +1,38 @@
+.light{
+    font-weight: 200;
+}
+
+/* map */
+
+#map-size {
+    width: 100%;
+    }
+
+.map {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#greyscale {
+    filter: grayscale(1);
+  }
+ 
+
+/* photo portrait */
+
+.portrait{
+    display: inline-block; 
+    /* border: 2px dotted orange; */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 6em;
+
+}
+
+#roundPicture{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+

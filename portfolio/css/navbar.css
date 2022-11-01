@@ -1,0 +1,97 @@
+
+/* Media Queries */
+
+/* Medium Devices */
+@media screen and (max-width: 991px) {
+
+    .icons, li{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin : 5px 0 5px 0;
+    }
+
+    .icons{ /*ul*/
+        margin-top:10px; 
+        width: 100%;
+    }
+
+    .icons li {
+        padding: 10px;
+    }
+
+    .nav-item {
+        font-size : 12px;
+    }
+
+   .fixed-top{
+        justify-content: center;
+    }
+
+    .navbar-toggler{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+
+/* smaller devices */
+@media(max-width: 768px){ 
+    
+    body{
+        font-size: 12px;
+    }
+    #burger{
+        font-size: 1rem;
+    }
+}
+
+/* STYLES COMMUNS */
+
+/* Logo */
+.navbar-brand{
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    margin-left: 1em;  
+}
+
+/* liens */
+nav a {
+    font-size: 1.5em;
+    color: black;
+}
+
+/* Navbar Icons */
+i {
+    margin-left: 1em;
+}
+
+a:hover{
+    color : grey;
+    text-decoration: none;
+}
+
+.nav-item {
+    margin-left: 1.25em;
+}
+
+#icons {
+    margin-right: 2.5em;
+}
+
+.icons {
+    font-size: medium;
+}
+
+/* Design nav*/
+nav {
+    opacity: 0.9;
+    /*box-shadow: 0px 3px 3px grey;*/
+}
+
+
+ul {
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
+}

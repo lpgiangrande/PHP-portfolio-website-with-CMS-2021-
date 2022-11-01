@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    color: black;
+    background-color: #ecf0f4;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    margin: 15px 0 15px;
+}
+li{
+    font-size: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.navbar-brand{
+    margin-left: 15px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    width: 600px;
+}
+
+/* list.php */
+
+.link{
+    color: grey;
+    
+}
+.link:hover{
+    color: grey;
+    font-style: italic;
+}
+.delete-icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+    
+
+
+

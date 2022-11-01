@@ -1,0 +1,28 @@
+/* FOOTER */
+
+footer{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 3%;
+}
+
+hr{
+    display: none;
+}
+
+.hr_style{
+    margin: auto;
+    margin-bottom: 1.5em;
+    width: 15em;
+    border: 1.5px #000 solid;
+    background-color: black;
+}
+
+.footer-link {
+    color: grey;
+}
+
+.footer-link:hover {
+    font-style: italic;
+    text-decoration: none;
+}

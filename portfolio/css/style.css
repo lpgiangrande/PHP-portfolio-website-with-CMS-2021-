@@ -1,0 +1,81 @@
+
+/* CSS BASE - STYLES COMMUNS A TOUTES LES PAGES */
+
+/* Media Queries */
+
+@media(max-width: 991px) {
+    section {
+        font-size: 14px;
+    }
+}
+
+/* BODY */
+
+body {
+    background-color : white;
+    color : black;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* TITRES */
+
+h2, h3, h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.align{
+    justify-content: center;
+    align-items: center;
+    margin-bottom :2em;
+}
+
+
+
+
+/* QUOTE */
+
+#typeeffect{
+    font-size: 4.5em;
+}
+
+#quote {
+    font-family: 'Roboto Slab', serif;
+    font-size: 4.1em;
+    font-weight: 200;
+}
+
+#block-quote{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+
+/* CAROUSEL */
+
+/* solution img différentes hauteurs */
+.carousel-item{
+    height: 50vh; /*height you want*/
+    overflow: hidden;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
