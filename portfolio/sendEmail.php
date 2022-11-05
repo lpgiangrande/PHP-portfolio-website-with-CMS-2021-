@@ -16,8 +16,8 @@ if(isset($_POST['email']) && isset($_POST['phone']) && isset($_POST['message']))
     $mail->isSMTP(); // Pour que PHPMail utilise SMTP
     $mail->Host = "smtp.gmail.com"; // Set the hostname of the mail server
     $mail->SMTPAuth = true;
-    $mail->Username = "contact.photographe.test@gmail.com"; 
-    $mail->Password = "TesT2021"; // mdp du mail 
+    $mail->Username = "@gmail.com"; 
+    $mail->Password = ""; // mdp du mail 
     $mail->Port= 465; // TCP port to connect to for Gmail
     $mail->SMTPSecure = 'ssl'; // Enable TLS encryption, `ssl` also accepted 
     //Enable SMTP debugging
