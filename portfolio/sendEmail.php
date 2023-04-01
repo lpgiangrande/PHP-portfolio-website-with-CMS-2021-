@@ -29,7 +29,7 @@ if(isset($_POST['email']) && isset($_POST['phone']) && isset($_POST['message']))
     // Email settings
     $mail->isHTML(true);
     $mail->setFrom($email); // expéditeur 
-    $mail->addAddress("contact.photographe.test@gmail.com"); // DESTINATAIRE
+    $mail->addAddress("test@gmail.com"); // DESTINATAIRE
     $mail->Subject = "Email from $phone $email"; 
     $mail->Body= $message; // corps du message
 
